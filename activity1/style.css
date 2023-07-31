@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+html 
+  {
+      scroll-behavior:smooth;
+      scrollbar-width: 0;
+  }
+
+.header
+    {
+        color: green;
+    }
+p
+    {
+        font-weight: bold;
+    }
+li
+    {
+        font-weight: bold;
+    }
+table
+    {
+        width: 100%; 
+        border-collapse: collapse;
+        border: solid 1px black;
+    }
+th, td
+    {
+        border: 1px solid;
+        padding: 8px;
+        text-align: left;
+    }
